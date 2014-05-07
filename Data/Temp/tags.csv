@@ -1,0 +1,413 @@
+tag_original,tag_type,tag_desc,tag_name,tag_id
+Lift Stations (Sewer),Infrastructure,,Lift Stations (Sewer),1
+Sanitary Sewer Mains (Private),Infrastructure,,Sanitary Sewer Mains (Private),2
+Sewer (Improvments),Infrastructure,,Sewer (Improvments),3
+Wastewater Treatment Plant,Infrastructure,,Wastewater Treatment Plant,4
+Water Distribution,Infrastructure,,Water Distribution,5
+Water Mains,Infrastructure,,Water Mains,6
+Water Mains (Private Property),Infrastructure,,Water Mains (Private Property),7
+Water Pump - Booster Station,Infrastructure,,Water Pump - Booster Station,8
+Water Reservoirs,Infrastructure,,Water Reservoirs,9
+Water Storage,Infrastructure,,Water Storage,10
+Water Towers (Elevated),Infrastructure,,Water Towers (Elevated),11
+Water Treatment Plant,Infrastructure,,Water Treatment Plant,12
+Aerial,Misc,,Aerial,13
+Airport (Cox Field),Misc,,Airport (Cox Field),14
+Airport (Old City Airport),Misc,,Airport (Old City Airport),15
+Alleys,Misc,,Alleys,16
+Business,Misc,,Business,17
+Camp Maxey,Misc,,Camp Maxey,18
+Campbell Soup Company,Misc,,Campbell Soup Company,19
+Charts,Misc,,Charts,20
+City Buildings,Misc,,City Buildings,21
+City Limits,Misc,,City Limits,22
+City Zoning Maps,Misc,,City Zoning Maps,23
+Detail Standards,Misc,,Detail Standards,24
+Drainage Projects,Misc,,Drainage Projects,25
+Easements,Misc,,Easements,26
+Farmer's Market,Misc,,Farmer's Market,27
+Industrial Sites,Misc,,Industrial Sites,28
+Lakes,Misc,,Lakes,29
+Lamar County,Misc,,Lamar County,30
+Lamar County Fairgrounds,Misc,,Lamar County Fairgrounds,31
+Landfill,Misc,,Landfill,32
+Miscellaneous,Misc,,Miscellaneous,33
+Paris Housing Projects,Misc,,Paris Housing Projects,34
+Parks,Misc,,Parks,35
+Private Property,Misc,,Private Property,36
+Railroad,Misc,,Railroad,37
+Sanborn Maps,Misc,,Sanborn Maps,38
+Schools,Misc,,Schools,39
+Street (Improvements),Misc,,Street (Improvements),40
+Subdivisions,Misc,,Subdivisions,41
+Texas Highway Department (TxDot),Misc,,Texas Highway Department (TxDot),42
+Traffic,Misc,,Traffic,43
+10th NE,Street,,10th NE St,44
+10th NW,Street,,10th NW St,45
+10th SE,Street,,10th SE St,46
+10th SW,Street,,10th SW St,47
+11th NE,Street,,11th NE St,48
+11th NW,Street,,11th NW St,49
+11th SE,Street,,11th SE St,50
+11th SW,Street,,11th SW St,51
+12 1/2 NW,Street,,12 1/2 NW St,52
+12th NE,Street,,12th NE St,53
+12th NW,Street,,12th NW St,54
+12th SE,Street,,12th SE St,55
+12th SW,Street,,12th SW St,56
+13th NE,Street,,13th NE St,57
+13th NW,Street,,13th NW St,58
+13th SE,Street,,13th SE St,59
+13th SW,Street,,13th SW St,60
+14th NE,Street,,14th NE St,61
+14th NW,Street,,14th NW St,62
+14th SE,Street,,14th SE St,63
+15th NE,Street,,15th NE St,64
+15th NW,Street,,15th NW St,65
+15th SE,Street,,15th SE St,66
+15th SW,Street,,15th SW St,67
+16th NE,Street,,16th NE St,68
+16th NW,Street,,16th NW St,69
+16th SE,Street,,16th SE St,70
+16th SW,Street,,16th SW St,71
+17th NE,Street,,17th NE St,72
+17th NW,Street,,17th NW St,73
+17th SE,Street,,17th SE St,74
+17th SW,Street,,17th SW St,75
+18th NE,Street,,18th NE St,76
+18th NW,Street,,18th NW St,77
+18th SE,Street,,18th SE St,78
+18th SW,Street,,18th SW St,79
+19th NE,Street,,19th NE St,80
+19th NW,Street,,19th NW St,81
+19th SE,Street,,19th SE St,82
+19th SW,Street,,19th SW St,83
+1ST NE,Street,,1st NE St,84
+1st NW,Street,,1st NW St,85
+1st SE,Street,,1st SE St,86
+1st SW,Street,,1st SW St,87
+20th NE,Street,,20th NE St,88
+20th NW,Street,,20th NW St,89
+20th SE,Street,,20th SE St,90
+21st NE,Street,,21st NE St,91
+21st NW,Street,,21st NW St,92
+21st SE,Street,,21st SE St,93
+21st SW,Street,,21st SW St,94
+22nd NE,Street,,22nd NE St,95
+22nd NW,Street,,22nd NW St,96
+22nd SE,Street,,22nd SE St,97
+22nd SW,Street,,22nd SW St,98
+23rd NW,Street,,23rd NW St,99
+23rd SE,Street,,23rd SE St,100
+24th NW,Street,,24th NW St,101
+24th SE,Street,,24th SE St,102
+25th NE,Street,,25th NE St,103
+25th NW,Street,,25th NW St,104
+25th SE,Street,,25th SE St,105
+25th SW,Street,,25th SW St,106
+26th NE,Street,,26th NE St,107
+26th SE,Street,,26th SE St,108
+26th SW,Street,,26th SW St,109
+27th NE,Street,,27th NE St,110
+27th NW,Street,,27th NW St,111
+27th SE,Street,,27th SE St,112
+27th SW,Street,,27th SW St,113
+28th NE,Street,,28th NE St,114
+28th NW,Street,,28th NW St,115
+28th SE,Street,,28th SE St,116
+28th SW,Street,,28th SW St,117
+29th NE,Street,,29th NE St,118
+29th NW,Street,,29th NW St,119
+29th SE,Street,,29th SE St,120
+29th SW,Street,,29th SW St,121
+2nd NE,Street,,2nd NE St,122
+2nd NW,Street,,2nd NW St,123
+2nd SW,Street,,2nd SW St,124
+30th NE,Street,,30th NE St,125
+30th NW,Street,,30th NW St,126
+30th SE,Street,,30th SE St,127
+30th SW,Street,,30th SW St,128
+31st NE,Street,,31st NE St,129
+31st NW,Street,,31st NW St,130
+31st SE,Street,,31st SE St,131
+31st SW,Street,,31st SW St,132
+32nd NE,Street,,32nd NE St,133
+32nd NW,Street,,32nd NW St,134
+32nd SE,Street,,32nd SE St,135
+32nd SW,Street,,32nd SW St,136
+33rd NE,Street,,33rd NE St,137
+33rd NW,Street,,33rd NW St,138
+33rd SE,Street,,33rd SE St,139
+33rd SW,Street,,33rd SW St,140
+34th NE,Street,,34th NE St,141
+34th NW,Street,,34th NW St,142
+34th SE,Street,,34th SE St,143
+34th SW,Street,,34th SW St,144
+35th NE,Street,,35th NE St,145
+36th NE,Street,,36th NE St,146
+36th NW,Street,,36th NW St,147
+36th SE,Street,,36th SE St,148
+37th NE,Street,,37th NE St,149
+38th NE,Street,,38th NE St,150
+38th SE,Street,,38th SE St,151
+39th NE,Street,,39th NE St,152
+39th SE,Street,,39th SE St,153
+39th SW,Street,,39th SW St,154
+3rd NE,Street,,3rd NE St,155
+3rd NW,Street,,3rd NW St,156
+3rd SE,Street,,3rd SE St,157
+3rd SW,Street,,3rd SW St,158
+40th NE,Street,,40th NE St,159
+40th SE,Street,,40th SE St,160
+41st NE,Street,,41st NE St,161
+41st SE,Street,,41st SE St,162
+41st SE,Street,,41st SE St,163
+41st SW,Street,,41st SW St,164
+42nd NE,Street,,42nd NE St,165
+42nd SE,Street,,42nd SE St,166
+42nd SW,Street,,42nd SW St,167
+45th SW,Street,,45th SW St,168
+46th NE,Street,,46th NE St,169
+46th SW,Street,,46th SW St,170
+47th NE,Street,,47th NE St,171
+47th SE,Street,,47th SE St,172
+48th NE,Street,,48th NE St,173
+48th SE,Street,,48th SE St,174
+49th SE,Street,,49th SE St,175
+4th NE,Street,,4th NE St,176
+4th NW,Street,,4th NW St,177
+4th SE,Street,,4th SE St,178
+4th SW,Street,,4th SW St,179
+5th NE,Street,,5th NE St,180
+5th NW,Street,,5th NW St,181
+5th SE,Street,,5th SE St,182
+5th SW,Street,,5th SW St,183
+6th NE,Street,,6th NE St,184
+6th NW,Street,,6th NW St,185
+6th SE,Street,,6th SE St,186
+6th SW,Street,,6th SW St,187
+7th 1/2 NE,Street,,7th 1/2 NE St,188
+7th NE,Street,,7th NE St,189
+7th NW,Street,,7th NW St,190
+7th SE,Street,,7th SE St,191
+7th SW,Street,,7th SW St,192
+8th NE,Street,,8th NE St,193
+8th NW,Street,,8th NW St,194
+8th SE,Street,,8th SE St,195
+8th SW,Street,,8th SW St,196
+9th NE,Street,,9th NE St,197
+9th NW,Street,,9th NW St,198
+9th SE,Street,,9th SE St,199
+9th SW,Street,,9th SW St,200
+E. Abbott,Street,,Abbott Ln,201
+E. Abby,Street,,Abby Ln,202
+E. Aiken Dr,Street,,Aikin Dr,203
+E. Allen St,Street,,Allen St,204
+E. Alpine,Street,,Alpine Dr,205
+E. Ash St,Street,,Ash St,206
+E. Aspen,Street,,Aspen Dr,207
+E. Ballard,Street,,Ballard Dr,208
+E. Bella Vista,Street,,Bella Vista Dr,209
+E. Belmont,Street,,Belmont St,210
+E. Beverly,Street,,Beverly Dr,211
+E. Broadwalk,Street,,Boardwalk,212
+W. Bonham,Street,,Bonham St,213
+E. Booth Alley,Street,,Booth Aly,214
+E. Booth Place,Street,,Booth Pl,215
+E. Brame,Street,,Brame St,216
+E. Brandi,Street,,Brandi Ln,217
+E. Brandyn Place,Street,,Brandyn Pl,218
+E. Briar Oak,Street,,Briar Oak Dr,219
+E. Briarwood,Street,,Briarwood Dr,220
+W. Brown,Street,,Brown Ave,221
+E. Brownwood Cir,Street,,Brownwood Cir,222
+E. Brownwood Dr,Street,,Brownwood Dr,223
+E. Bunker,Street,,Bunker St,224
+W. Campbell,Street,,Campbell St,225
+E. Cannon Place,Street,,Cannon Pl,226
+E. Cardinal,Street,,Cardinal Ln,227
+W. Carr,Street,,Carr Aly,228
+E. Carrie,Street,,Carrie Ln,229
+E. Carson,Street,,Carson Ln,230
+E. Castlegate,Street,,Castlegate Dr,231
+E. Cedar,Street,,Cedar St,232
+W. Choctaw,Street,,Choctaw Ln,233
+E. Clark,Street,,Clark Ln,234
+E. Clarksville,Street,,Clarksville St,235
+E. Clement,Street,,Clement Rd,236
+E. Cleveland,Street,,Cleveland St,237
+E. College,Street,,College St,238
+W. Colvin,Street,,Colvin St,239
+W. Cooper,Street,,Cooper St,240
+E. Cope,Street,,Cope Dr,241
+E. Crescent,Street,,Crescent St,242
+E. Culbertson,Street,,Culbertson St,243
+E. Cypress,Street,,Cypress Dr,244
+E. Darnell,Street,,Darnell Dr,245
+E. Dawn,Street,,Dawn Dr,246
+E. Deer Haven,Street,,Deer Haven Ln,247
+W. Del Roy,Street,,Del Roy Dr,248
+E. Deshong,Street,,Deshong Dr,249
+W. Dickson,Street,,Dickson St,250
+E. Dogwood,Street,,Dogwood Ln,251
+Downtown Plaza,Street,,Downtown Plaza,252
+W. Drive-In,Street,,Drive-In Rd,253
+E. Durango,Street,,Durango St,254
+E. Austin,Street,,E. Austin St,255
+E. Booth St,Street,,E. Booth St,256
+E. Center,Street,,E. Center St,257
+E. Cherry,Street,,E. Cherry St,258
+E. Evergreen,Street,,E. Evergreen St,259
+E. Garrett,Street,,E. Garrett St,260
+E. Henderson,Street,,E. Henderson St,261
+E. Hickory,Street,,E. Hickory St,262
+E. Houston,Street,,E. Houston St,263
+E. Kaufman,Street,,E. Kaufman St,264
+E. Long,Street,,E. Long Ave,265
+E. Neagle,Street,,E. Neagle,266
+E. Price,Street,,E. Price St,267
+E. Provine,Street,,E. Provine St,268
+E. Santa Fe,Street,,E. Santa Fe,269
+E. Sherman,Street,,E. Sherman St,270
+E. Sycamore,Street,,E. Sycamore St,271
+E. Tudor,Street,,E. Tudor Dr,272
+E. Washington,Street,,E. Washington St,273
+E. Eagle Bend,Street,,Eagle Bend Dr,274
+E. Eastgate,Street,,Eastgate Dr,275
+E. Enchanted,Street,,Enchanted Dr,276
+E. Fair Oaks,Street,,Fair Oaks,277
+E. Fairfax,Street,,Fairfax St,278
+E. Fairway,Street,,Fairway St,279
+W. Field,Street,,Field Rd,280
+E. Fitzhugh,Street,,Fitzhugh Ave,281
+FM 1497,Street,,FM 1497,282
+FM 1508,Street,,FM 1508,283
+FM 2820,Street,,FM 2820,284
+E. Fort,Street,,Fort St,285
+W. Franklin,Street,,Franklin St,286
+W. Frisco,Street,,Frisco Ave,287
+W. Graham,Street,,Graham St,288
+W. Grand,Street,,Grand Ave,289
+E. Grove,Street,,Grove St,290
+E. Harrison,Street,,Harrison St,291
+E.Hearon,Street,,Hearon St,292
+E. Highland,Street,,Highland Rd,293
+E. Holbrook,Street,,Holbrook Dr,294
+E. Hubbard,Street,,Hubbard St,295
+E. Hyde,Street,,Hyde St,296
+E. Jackson Court,Street,,Jackson Ct,297
+E. Jackson St,Street,,Jackson St,298
+E. Jasmine,Street,,Jasmine St,299
+E. Jefferson,Street,,Jefferson Rd,300
+E. Johnson,Street,,Johnson St,301
+E. Johnson Woods,Street,,Johnson Woods Dr,302
+E. Kessler,Street,,Kessler Dr,303
+E. Kyle,Street,,Kyle Dr,304
+E. Lamar,Street,,Lamar Ave,305
+E. Laurel,Street,,Laurel Ln,306
+E. Leigh,Street,,Leigh Dr,307
+E. Levi,Street,,Levi Ln,308
+E. Lewis,Street,,Lewis Ln,309
+E. Lombardy,Street,,Lombardy Dr,310
+E. Lovers Ln,Street,,Lovers Ln,311
+E. Mahaffey,Street,,Mahaffey Ln,312
+W. Maple,Street,,Maple Ave,313
+E. Margaret,Street,,Margaret St,314
+E. Martine Luter King (E. Blake),Street,,Marin Luther King Dr (Blake Rd),315
+W. Meadow Park,Street,,Meadow Park Dr,316
+E. Meadowlark,Street,,Meadowlark Ln,317
+E. Medalist,Street,,Medalist St,318
+E. Millers Place,Street,,Miller Pl,319
+E. Miranda,Street,,Miranda Dr,320
+E. Misty,Street,,Misty Ln,321
+E. Mockingbird LN,Street,,Mockingbird Ln,322
+E. Morningside,Street,,Morningside Dr,323
+N. Collegiate,Street,,N. Collegiate Dr,324
+N. Main,Street,,N. Main St,325
+NE Loop 286,Street,,NE Loop 286,326
+E. Neathery,Street,,Neatherly St,327
+E. North Hills Rd,Street,,North Hills Rd,328
+NW Loop 286,Street,,NW Loop 286,329
+E. Oak Ave,Street,,Oak Ave,330
+E. Oak Creek,Street,,Oak Creek Dr,331
+E. Oak St,Street,,Oak St,332
+W. Old Bonham,Street,,Old Bonham Rd,333
+E. Old Clarksville,Street,,Old Clarksville Rd,334
+E. Old Jefferson,Street,,Old Jefferson Rd,335
+E. Oleander,Street,,Oleander St,336
+W. Orange,Street,,Orange St,337
+W. Ouest Court,Street,,Ouest Ct,338
+E. Paradise,Street,,Paradise Dr,339
+W. Parc Place,Street,,Parc Pl,340
+E. Paris Blvd,Street,,Paris Blvd,341
+W. Parc Ouest,Street,,Park Ouest Dr,342
+E. Park Place,Street,,Park Pl,343
+W. Park,Street,,Park St,344
+W. Parr,Street,,Parr Ave,345
+W. Phillips,Street,,Phillips,346
+E. Pine Bluff,Street,,Pine Bluff St,347
+E. Pine Mill,Street,,Pine Mill Rd,348
+W. Plum,Street,,Plum St,349
+E. Polk,Street,,Polk St,350
+E. Price Circle,Street,,Price Cir,351
+E. Primrose Court,Street,,Primrose Ct,352
+E. Provine Alley,Street,,Provine Aly,353
+E. Quail,Street,,Quail Dr,354
+E. Reno,Street,,Reno Dr,355
+E. Ridgeview,Street,,Ridgeview Rd,356
+E. Ripplewood,Street,,Ripplewood Dr,357
+E. Robin,Street,,Robin Rd,358
+E. Ruby,Street,,Ruby Way,359
+E. Rue Calle,Street,,Rue Calle,360
+S. Church,Street,,S. Church St,361
+S. Collegiate,Street,,S. Collegiate Dr,362
+S. Main,Street,,S. Main St,363
+W. Sage Trail,Street,,Sage Trail Dr,364
+SE Loop 286,Street,,SE Loop 286,365
+W. Shady Oaks,Street,,Shady Oaks Ln,366
+E. Shannon,Street,,Shannon Dr,367
+E. Sherwood,Street,,Sherwood Dr,368
+W. Shiloh,Street,,Shiloh St,369
+E. Silverleaf,Street,,Silverleaf Dr,370
+E. Simpson,Street,,Simpson St,371
+W. Sperry,Street,,Sperry St,372
+E. Stacy,Street,,Stacy Ln,373
+E. Stephens,Street,,Stephens Ln,374
+E. Stillhouse,Street,,Stillhouse Rd,375
+E. Stone,Street,,Stone Ave,376
+E. Sunrise,Street,,Sunrise Dr,377
+E. Thomas,Street,,Thomas Dr,378
+E. Twin Oaks,Street,,Twin Oaks Ln,379
+E. Van Zandt,Street,,Van Zandt St,380
+E. Village Bend,Street,,Village Bend,381
+W. Austin,Street,,W. Austin St,382
+W. Booth,Street,,W. Booth St,383
+W. Brame,Street,,W. Brame St,384
+W. Center,Street,,W. Center St,385
+W. Cherry,Street,,W. Cherry St,386
+W. Garrett,Street,,W. Garrett St,387
+W. Hearne,Street,,W. Hearne Ave,388
+W. Henderson,Street,,W. Henderson St,389
+W. Hickory,Street,,W. Hickory St,390
+W. Houston,Street,,W. Houston St,391
+W. Independence,Street,,Independence Dr,392
+W. Kaufman,Street,,W. Kaufman St,393
+W. Long,Street,,W. Long Ave,394
+W. Neagle,Street,,W. Neagle St,395
+W. Price,Street,,W. Price St,396
+W. Provine,Street,,W. Provine St,397
+W. Sherman,Street,,W. Sherman St,398
+W. Washington,Street,,W. Washington St,399
+W. Walker,Street,,Walker St,400
+E. Walnut,Street,,Walnut St,401
+E. Welch Circle,Street,,Welch Cir,402
+E. Wilburn,Street,,Wilburn Dr,403
+E. Wilderness,Street,,Wilderness Ln,404
+E. Wildwood,Street,,Wildwood Ln,405
+E. Williams,Street,,Williams St,406
+E. Willow Bend,Street,,Willow Bend,407
+E. Willow Hollow,Street,,Willow Hollow,408
+E. Wood,Street,,Wood St,409
+E. Woodland,Street,,Woodland St,410
+E. Woodlawn,Street,,Woodlawn Ln,411
+E. York,Street,,York St,412
