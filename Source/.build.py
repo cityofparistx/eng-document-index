@@ -4,6 +4,11 @@ import pystache
 database_location = 'S:\\GIS\\Justin Oliver\\GitHub\\eng-document-index\\Data\\documents.accdb'
 connection_string = 'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=%s;' % database_location
 
+index_template = 'Template\\index.mustache'
+index_tag_links_template = 'Template\\index_tag_links.mustache'
+tag_index_page_template = 'Template\\tag_index_page.mustache'
+tag_index_table_row_template = 'Template\\tag_index_table_row.mustache'
+
 cnxn = pyodbc.connect(connection_string)
 cursor = cnxn.cursor()
 
@@ -15,6 +20,7 @@ tag_rows = cursor.fetchall()
 
 with open('..\\Build\\index.htm', 'wb') as mainIndex:
     current_tag_type = ""
+    mainIndex.write('<html><link rel="stylesheet" href="dist\\main.css">\n')
     mainIndex.write('<a href="index.htm">Home</a><br>\n')
     for tag in tag_rows:
         sqlStatement = 'SELECT doc_tag_relation.location_desc, documents.doc_date, documents.physical_index FROM doc_tag_relation INNER JOIN documents ON documents.doc_id = doc_tag_relation.doc_id WHERE doc_tag_relation.tag_id=' + str(tag.tag_id)
@@ -27,9 +33,11 @@ with open('..\\Build\\index.htm', 'wb') as mainIndex:
             mainIndex.write('<h2>' + tag.tag_type + '</h2>\n')
         
         current_tag_type = tag.tag_type
+
         mainIndex.write('<a href="Tags\\' + scrubbedTagName + '.htm">' + tag.tag_name + '</a><br>\n')
         
         with open('..\\Build\\Tags\\' + scrubbedTagName + '.htm', 'wb') as tagFile:
+            tagFile.write('<html><link rel="stylesheet" href="..\\dist\\main.css">\n')
             tagFile.write('<a href="..\index.htm">Home</a><br>\n')
             tagFile.write('<h2>' + tag.tag_name + '</h2>\n')
             tagFile.write('<table>\n')
@@ -41,5 +49,6 @@ with open('..\\Build\\index.htm', 'wb') as mainIndex:
                     
                 tagFile.write('<tr><td>' + str(doc.physical_index) + '</td><td>' + documentDate + '</td><td>' + str(doc.location_desc) + '</td></tr>\n')
                 
-            tagFile.write('</table>\n')
+            tagFile.write('</table></html>\n')
+    mainIndex.write('</html>\n')
 cnxn.close()

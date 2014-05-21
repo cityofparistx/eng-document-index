@@ -3,20 +3,28 @@ Readme file for Engineering Document Index
 
 To Do...
 
-1) Replace Tag_Name with Tag_ID in Plans_Tag
+1) Data Tasks
 
-2) Finalize formating/Schema
+	a) CLEAN UP descriptions of plans documents
 
-3) Script a simple webpage template with tag\document data
+	b) CLEAN UP misc tags (especially Subdivisions, Streets)
 
-4) Import into sqlite db??? or keep CSV
+	c) ADD server file locations
 
-5) Begin tagging of building plans
+	d) INDEX newer plans
+
+	e) CHECK / REINDEX older plans
+
+2) Web Index Tasks
+
+	a) ADD links to files
+
+	b) SPLIT out haeder and footer templates
+
+	c) ADD search bar and typeahead code
+
+3) Project Tasks
+
+	a) CREATE build script for entire project (Batch file because of Windows)
 
 
-Future...
-
-
-1) Clean Up descriptions of plans documents
-
-2) Clean Up Misc Tags (especially Subdivisions, Streets)

@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html PUBLIC "" "">
+<html>
+
+<header>
+<title>Engineering Document Index</title>
+<link rel="stylesheet" href="dist/main.css">
+</header>
+
+<body>
+
+    <div id="content">
+        <a href="index.htm">Home</a><br>
+        {{#type}}
+            <h2>{{tag_type}}</h2>
+            {{#tags}}
+                <a href="{{safe_tag_name}}.htm">{{tag_name}}</a><br>
+            {{/tags}}
+        {{/type}}
+    </div>
+</body>
+
+<script src="dist/jquery-1.11.1.min.js"></script>
+<script src="dist/typeahead.bundle.js"></script>
+<script src="dist/main.js"></script>
+</html>
