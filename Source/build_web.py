@@ -93,7 +93,7 @@ def loadTags():
     return loadSqlStatement(sqlStatement)
     
 def loadDocumentsByTag(tag_id):
-    sqlStatement = 'SELECT doc_tag_relation.location_desc, documents.doc_date, documents.physical_index FROM doc_tag_relation INNER JOIN documents ON documents.doc_id = doc_tag_relation.doc_id WHERE doc_tag_relation.tag_id=' + str(tag_id)
+    sqlStatement = 'SELECT doc_tag_relation.location_desc, documents.doc_date, documents.physical_index FROM doc_tag_relation INNER JOIN documents ON documents.doc_id = doc_tag_relation.doc_id WHERE doc_tag_relation.tag_id=' + str(tag_id) + ' ORDER BY documents.doc_date DESC'
     return loadSqlStatement(sqlStatement)
     
 def loadSqlStatement(sqlStatement):
