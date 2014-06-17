@@ -14,11 +14,11 @@
         <h2>{{tag_name}}</h2>
         <table class="tags">
             <thead>
-                <tr><td>Index</td><td>Date</td><td>Location</td></tr>
+                <tr><td>Index</td><td>Date</td><td>Location</td><td></td></tr>
             </thead>
             <tbody>
             {{#table}}
-                <tr><td>{{physical_index}}</td><td>{{tag_date}}</td><td>{{location_desc}}</td></tr>
+                <tr><td>{{physical_index}}</td><td>{{tag_date}}</td><td>{{location_desc}}</td><td>{{{server_location}}}</td></tr>
             {{/table}}
             </tbody>
         </table>

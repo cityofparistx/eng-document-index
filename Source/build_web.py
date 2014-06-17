@@ -36,7 +36,7 @@ def main():
         createTagPage(tag.tag_id, tag.tag_name, safe_tag_name)
         
     createTagJson(json_tag_data)
-    createIndex(index_data)
+    #createIndex(index_data)
 
 
 # Functions to create proper dictionary & list formats for mustache templates
@@ -77,13 +77,19 @@ def getTagPageData(tag_id, tag_name):
     doc_data = { 'tag_name': tag_name, 'table': [] }
     document_date = ''
 
+
     for doc in docs:
         #loop through all documents and add create data for mustache template renderer
         if doc.doc_date:
             #if date is present reformat into string. If Null do nothing and leave docuement_date as empty string
             document_date = doc.doc_date.strftime('%Y-%m-%d')
+        
+        document_server_location = ''
+        if doc.server_location:
+            document_server_location = '<a href="' + doc.server_location + '">Open</a>'
             
-        doc_data['table'].append({'physical_index': doc.physical_index, 'tag_date' : document_date, 'location_desc': doc.location_desc })
+            
+        doc_data['table'].append({'physical_index': doc.physical_index, 'tag_date' : document_date, 'location_desc': doc.location_desc, 'server_location': document_server_location })
 
     return doc_data
 
@@ -93,7 +99,7 @@ def loadTags():
     return loadSqlStatement(sqlStatement)
     
 def loadDocumentsByTag(tag_id):
-    sqlStatement = 'SELECT doc_tag_relation.location_desc, documents.doc_date, documents.physical_index FROM doc_tag_relation INNER JOIN documents ON documents.doc_id = doc_tag_relation.doc_id WHERE doc_tag_relation.tag_id=' + str(tag_id) + ' ORDER BY documents.doc_date DESC'
+    sqlStatement = 'SELECT doc_tag_relation.location_desc, documents.doc_date, documents.physical_index, documents.server_location FROM doc_tag_relation INNER JOIN documents ON documents.doc_id = doc_tag_relation.doc_id WHERE doc_tag_relation.tag_id=' + str(tag_id) + ' ORDER BY documents.doc_date DESC'
     return loadSqlStatement(sqlStatement)
     
 def loadSqlStatement(sqlStatement):
