@@ -3,7 +3,7 @@
 <html>
 
 <header>
-<title>Engineering Document Index - {{tag_name}}</title>
+<title>{{tag_name}} - Engineering Document Index</title>
 <link rel="stylesheet" href="dist/main.css">
 </header>
 
@@ -11,13 +11,14 @@
 
     <div id="content">
         <h2>{{tag_name}}</h2>
+        <p>W = Water | S = Sewer | D = Drainage | R = Road or Street</p>
         <table class="tags">
             <thead>
-                <tr><td>Index</td><td>Date</td><td>Location</td><td></td></tr>
+                <tr><td class="index">Index</td><td class="date">Date</td><td class="info">Info</td><td class="location">Location</td><td class="open"></td></tr>
             </thead>
             <tbody>
             {{#table}}
-                <tr><td>{{physical_index}}</td><td>{{tag_date}}</td><td>{{location_desc}}</td><td>{{{server_location}}}</td></tr>
+                <tr class="{{row_class}}" href="{{server_location}}"><td>{{physical_index}}</td><td>{{tag_date}}</td><td>{{doc_info}}</td><td>{{location_desc}}</td><td>{{{doc_link}}}</td></tr>
             {{/table}}
             </tbody>
         </table>
@@ -26,6 +27,5 @@
 </body>
 
 <script src="dist/jquery-1.11.1.min.js"></script>
-<script src="dist/typeahead.bundle.js"></script>
 <script src="dist/main.js"></script>
 </html>

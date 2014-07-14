@@ -77,7 +77,7 @@ def getTagPageData(tag_id, tag_name):
     doc_data = { 'tag_name': tag_name, 'table': [] }
     document_date = ''
 
-
+    docCounter = 0
     for doc in docs:
         #loop through all documents and add create data for mustache template renderer
         if doc.doc_date:
@@ -85,11 +85,28 @@ def getTagPageData(tag_id, tag_name):
             document_date = doc.doc_date.strftime('%Y-%m-%d')
         
         document_server_location = ''
+        doc_link = ''
         if doc.server_location:
-            document_server_location = '<a href="' + doc.server_location + '">Open</a>'
-            
-            
-        doc_data['table'].append({'physical_index': doc.physical_index, 'tag_date' : document_date, 'location_desc': doc.location_desc, 'server_location': document_server_location })
+            document_server_location = doc.server_location
+            doc_link = '<a href="' + doc.server_location + '">Open</a>'
+        else:
+            document_server_location = ''
+            doc_link = ''
+                    
+        row_class = 'row-' + str(docCounter % 2)
+        
+        doc_info = ''
+        if doc.has_water:
+            doc_info = doc_info + 'W'
+        if doc.has_sewer:
+            doc_info = doc_info + 'S'
+        if doc.has_drainage:
+            doc_info = doc_info + 'D'
+        if doc.has_street:
+            doc_info = doc_info + 'R'
+        
+        doc_data['table'].append({'row_class': row_class, 'physical_index': doc.physical_index, 'tag_date' : document_date, 'location_desc': doc.location_desc, 'server_location': document_server_location, 'doc_info': doc_info, 'doc_link': doc_link })
+        docCounter += 1
 
     return doc_data
 
@@ -99,7 +116,17 @@ def loadTags():
     return loadSqlStatement(sqlStatement)
     
 def loadDocumentsByTag(tag_id):
-    sqlStatement = 'SELECT doc_tag_relation.location_desc, documents.doc_date, documents.physical_index, documents.server_location FROM doc_tag_relation INNER JOIN documents ON documents.doc_id = doc_tag_relation.doc_id WHERE doc_tag_relation.tag_id=' + str(tag_id) + ' ORDER BY documents.doc_date DESC'
+    fields = ('doc_tag_relation.location_desc, '
+                'documents.doc_date, '
+                'documents.physical_index, '
+                'documents.server_location, '
+                'documents.has_water, '
+                'documents.has_sewer, '
+                'documents.has_drainage, '
+                'documents.has_street')
+
+    sqlStatement = 'SELECT ' + fields + ' FROM doc_tag_relation INNER JOIN documents ON documents.doc_id = doc_tag_relation.doc_id WHERE doc_tag_relation.tag_id=' + str(tag_id) + ' ORDER BY documents.doc_date DESC'
+
     return loadSqlStatement(sqlStatement)
     
 def loadSqlStatement(sqlStatement):
