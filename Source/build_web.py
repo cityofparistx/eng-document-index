@@ -1,4 +1,4 @@
-import pyodbc, json
+import pyodbc, json, shutil, os
 from pystache import Renderer
 
 renderer = Renderer()
@@ -6,10 +6,13 @@ renderer = Renderer()
 index_template = 'Templates\\index.mustache'
 tag_index_page_template = 'Templates\\tag_index_page.mustache'
 
-root = '..\\Build\\web\\'
+root = '..\\Build\\'
 
 
 def main():
+    shutil.rmtree(root, ignore_errors=True)
+    os.mkdir(root)
+    os.mkdir(os.path.join(root, "dist"))
 
     tag_rows = loadTags()
     index_data = { 'type': [] }
@@ -36,8 +39,14 @@ def main():
         createTagPage(tag.tag_id, tag.tag_name, safe_tag_name)
         
     createTagJson(json_tag_data)
+    copyWebFiles()
     #createIndex(index_data)
 
+def copyWebFiles():
+    shutil.copyfile("Assets\\css\\main.css", os.path.join(root, "dist", "main.css"))
+    shutil.copyfile("Assets\\js\\jquery-1.11.1.min.js", os.path.join(root, "dist", "jquery-1.11.1.min.js"))
+    shutil.copyfile("Assets\\js\\main.js", os.path.join(root, "dist", "main.js"))
+    
 
 # Functions to create proper dictionary & list formats for mustache templates
 # Remember sections == lists & variables == dictionaries

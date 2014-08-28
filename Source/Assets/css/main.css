@@ -14,7 +14,7 @@ table{
     width: 100%;
 }
 
-table .tags {
+table.tags {
     width: 100%;
 
 }
@@ -26,4 +26,19 @@ table thead  td {
 table.tags tr td {
     padding: 2px 10px;
     border: solid 1px #000;
+}
+
+tbody tr.row-0 {
+    background-color: #e7fcff;
+}
+
+tbody tr:hover {
+    border: solid 2px #00f;
+    background-color: #99aade;
+    color: #fff;
+    cursor: pointer;
+}
+
+tbody tr:hover a{
+    color: #fff
 }
